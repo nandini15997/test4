@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+<!-- import React, { useState } from "react";
 
 export const Login = (props) => {
     const [email, setEmail] = useState('');
@@ -8,8 +8,11 @@ export const Login = (props) => {
         e.preventDefault();
         console.log(email);
     }
+}
 
     return (
+        
+        
         <div className="auth-form-container">
             <h2>Login</h2>
             <form className="login-form" onSubmit={handleSubmit}>
@@ -22,4 +25,7 @@ export const Login = (props) => {
             <button className="link-btn" onClick={() => props.onFormSwitch('register')}>Don't have an account? Register here.</button>
         </div>
     )
-}
+    
+
+
+
